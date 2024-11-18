@@ -1,7 +1,6 @@
 {
   "name": "json-ld-crutch",
   "packageManager": "yarn@4.4.1",
-  "private": true,
   "scripts": {
     "bundle": "rollup -c",
     "main": "yarn bundle && node out/main.js",
