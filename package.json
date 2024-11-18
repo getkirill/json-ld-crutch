@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "bundle": "rollup -c",
-    "main": "yarn bundle && node out/main.js"
+    "main": "yarn bundle && node out/main.js",
+    "clean": "rm -rf ./out/"
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^28.0.1",
